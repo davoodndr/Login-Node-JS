@@ -1,0 +1,18 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "This is a back ended  login page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "author": "Davood Hakkim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "hbs": "^4.2.0",
+    "nocache": "^4.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+.main{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.login-form input{
+  line-height: 2.5 !important;
+  padding: .375rem 1rem !important;
+}
+
+.login-form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+form:hover{
+  box-shadow: 0 0 4px rgba(3, 0, 153, 0.05),0 0 32px rgba(0, 128, 167, 0.3);
+}
